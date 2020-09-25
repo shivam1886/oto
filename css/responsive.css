@@ -1,0 +1,80 @@
+@media (min-width: 768px) and (max-width: 1191px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+
+@media screen and (max-width: 767px) {
+/*********nav***********/
+	.right-block .top-nav .right-item{
+		padding: 0;
+	}
+	.right-block .top-nav .right-item .user-profile h2{
+		display: none;
+	}
+	.right-block .top-nav .right-item .notification{
+		margin-right: 20px;
+	}
+	.right-block, .right-block .top-nav {
+	    margin: 0;
+	}
+	.d-none-m{
+		display: none;
+	}
+	.toggle-class .Navoverlay{
+		display: block;
+	}
+	.toggle-class  .close-menu{
+	  display: block;
+	}
+	.toggle-class .left-block .nav-logo img {
+	    max-width: 145px;
+	}
+	.toggle-class .logo {
+	    display: block;
+	}
+	.toggle-class .left-block{
+		width: 220px !important;
+		transform: translate(0) !important;
+	}
+	.toggle-class .logo-icon{
+		display: none;
+	}
+	.toggle-class .navlink ul li a span {
+	    display: inline-block; 
+	}
+	.toggle-class .left-block .navlink ul li a i {
+	    font-size: 15px !important;
+	    width: 30px;
+	}
+	.toggle-class .left-block .navlink ul li a {
+	    padding: 10px 15px;
+	    font-size: 12px;
+	    text-align: left;
+	}
+	.left-block{
+		transform: translate(-100%);
+		transition: all 0.3s;
+	}
+	.left-block .nav-logo img.logo-icon {
+	    display: none;
+	}
+
+	.right-block .main-body{
+		padding: 100px 15px 20px;
+	}
+	
+}
+
+@media (min-width: 568px) and (max-width: 767px){
+	
+}
+
+@media screen and (max-width: 550px){
+	
+}
+@media screen and (max-width: 576px){
+	
+}

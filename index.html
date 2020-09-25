@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OTO</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!--font awesome 4-->
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css">
+</head>
+<body onload="loaderfun()">
+	<div id="loader-wrapper">
+		<div id="loader">
+			<div class="svg-wrapper">
+				<img src="images/loader1.gif">
+			</div>
+		</div>
+	</div>
+	<main class="clearfix">
+		<!--left block-->
+		<div class="left-block">
+			<button class="close-menu">
+				<i class="fa fa-times"></i>
+			</button>
+			<div class="left-block-body">
+				<nav>
+					<div class="nav-logo">
+						<a href="index.html">
+							<img src="images/logo.png" class="logo">
+							<img src="images/logo-icon.png" class="logo-icon">
+						</a>
+					</div>
+
+					<div class="navlink">
+						<ul>
+							<li>
+								<a href="index.html" class="active"><span>DASHBOARD</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>ORGANIZATION MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>PERMISSION MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>VEHICLE MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>MAP VIEW</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>GEOFENCE MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"><span>TRIP MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>TRIP MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>OPERATION MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>REPORT MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>USER MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>PAYMENT MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>OFFER MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>POINT MANAGEMENT</span></a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"> <span>SETTINGS</span></a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!--left block end-->
+
+		<!--right-block-->
+		<div class="right-block">
+			<div class="Navoverlay"></div>
+			<div class="right-block-body">
+				<div class="top-nav">
+					<div class="nav-item clearfix">
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-xs-3">
+								<div class="left-item">
+									<button class="toggle-btn"><i class="fa fa-bars"></i></button>
+								</div>
+							</div>
+							
+							<div class="col-md-8 col-sm-8 col-xs-9 text-right">
+								<div class="right-item">
+									<div class="notification-card">
+										<a href="javascript:void(0);" class="noti-btn"><i class="far fa-bell"></i> <span class="point">&nbsp;</span></a>
+										<div class="noty-body">
+											<ul>
+											   	<li>
+													<div class="img-name clearfix">
+													<div class="img">
+														<img src="images/01.jpg">
+													</div>
+													<div class="txt">
+														<h2>New Vendor &amp; supplier</h2>
+														<span>2020-Sep-08</span>
+													</div>
+													</div>
+													<p>A new Vendor &amp; supplier registered</p>
+											   	</li>
+
+											   	<li>
+													<div class="img-name clearfix">
+													<div class="img">
+														<img src="images/02.jpg">
+													</div>
+													<div class="txt">
+														<h2>New Vendor &amp; supplier</h2>
+														<span>2020-Sep-08</span>
+													</div>
+													</div>
+													<p>A new Vendor &amp; supplier registered</p>
+										   		</li>
+
+											   	<li>
+													<div class="img-name clearfix">
+													<div class="img">
+														<img src="images/01.jpg">
+													</div>
+													<div class="txt">
+														<h2>New Vendor &amp; supplier</h2>
+														<span>2020-Sep-08</span>
+													</div>
+													</div>
+													<p>A new Vendor &amp; supplier registered</p>
+										   		</li>
+											</ul>
+										</div>
+									</div>
+									<div class="user-profile">
+										<a href="profile.html">
+											<img src="images/01.jpg" alt="profile" class="img-responsive">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!------right block body-->
+				<div class="main-body">
+					<div class="inner-body">
+						<div class="header">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="title">
+										<h2>Organization List</h2>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="buttons right">
+										<button class="button1"><i class="fas fa-plus"></i> Add</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="globle-searchabr">
+							<div class="searchabr-inner">
+								<i class="fas fa-search"></i>
+								<input type="text" placeholder="Search Here" name="" id="">
+							</div>
+						</div>
+						<div class="custom-data-table">
+							<div class="table-responsive">
+								<table>
+									<thead>
+										<tr>
+											<td>Organization ID</td>
+											<td>Name</td>
+											<td>Created Date</td>
+											<td>Country</td>
+											<td>Action</td>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr class="active">
+											<td>1</td>
+											<td>Jump Ride</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>2</td>
+											<td>Drop Bike</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>3</td>
+											<td>Glide</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>4</td>
+											<td>Auto Ride</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr class="active">
+											<td>1</td>
+											<td>Jump Ride</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>2</td>
+											<td>Drop Bike</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>3</td>
+											<td>Glide</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+
+										<tr>
+											<td>4</td>
+											<td>Auto Ride</td>
+											<td>27 Jun, 2019</td>
+											<td>Bangladesh</td>
+											<td>
+												<div class="buttons">
+													<button class="edit"><i class="fas fa-pen"></i></button>
+													<button class="delete"><i class="fas fa-trash-alt"></i></button>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<!--right-block end-->
+
+	</main>
+<!--script-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
